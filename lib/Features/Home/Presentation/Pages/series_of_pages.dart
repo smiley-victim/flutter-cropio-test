@@ -3,6 +3,7 @@ import 'package:myapp/Features/Camera/Presentation/Pages/camera_page.dart';
 import 'package:myapp/Features/Community/Presentation/Pages/community_screen.dart';
 import 'package:myapp/Features/Home/Presentation/Pages/blank.dart';
 import 'package:myapp/Features/Home/Presentation/Pages/homepage.dart';
+import 'package:myapp/Features/Search/Presentations/Pages/search_page_mobile.dart';
 
 import '../../../Plant info panel/Presentations/Pages/plant_info_listview.dart';
 
@@ -30,7 +31,7 @@ class _SeriesOfPagesState extends State<SeriesOfPages> {
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.chat_bubble),
+            icon: Icon(Icons.search),
             label: '',
           ), 
           BottomNavigationBarItem(
@@ -51,7 +52,8 @@ class _SeriesOfPagesState extends State<SeriesOfPages> {
       ),
       body: [
         MyHomePage(),
-        PlantInfoListviewPage(),
+        // PlantInfoListviewPage(),
+        SearchPageMobile(),
         CameraPage(),
         BlankPage(),
         CommunityScreen()

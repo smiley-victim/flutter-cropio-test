@@ -75,8 +75,9 @@ class PlantsInfoDetailview extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
                   color: Colors.green,
-                  image: const DecorationImage(
-                    image: AssetImage('assets/philodendron.jpg'),
+                  image:  DecorationImage(
+                    // image: AssetImage('assets/philodendron.jpg'),
+                    image: NetworkImage(imageUrl),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -88,8 +89,8 @@ class PlantsInfoDetailview extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'Philodendron',
+                     Text(
+                      plantName,
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -97,7 +98,8 @@ class PlantsInfoDetailview extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Philodendron is a large genus of flowering plants in the family Araceae. As of September 2015, the World Checklist of Selected Plant Families accepted 489 species; other sources accept',
+                      description,
+                      // 'Philodendron is a large genus of flowering plants in the family Araceae. As of September 2015, the World Checklist of Selected Plant Families accepted 489 species; other sources accept',
                       style: TextStyle(
                         color: Colors.grey[600],
                         height: 1.5,

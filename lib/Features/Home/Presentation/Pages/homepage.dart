@@ -5,7 +5,7 @@ import 'package:myapp/Features/Home/Presentation/Widgets/app_drawer.dart';
 import 'package:myapp/Features/Home/Presentation/Widgets/do_you_know.dart';
 import 'package:myapp/Features/Home/Presentation/Widgets/square_card_button.dart';
 import 'package:myapp/Features/Reminder/Presentation/Pages/reminder_screen.dart';
-import 'package:myapp/Features/Search/Presentations/Pages/search_page_mobile.dart';
+// import 'package:myapp/Features/Search/Presentations/Pages/search_page_mobile.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -46,23 +46,23 @@ class MyHomePage extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        MaterialButton(
-                          onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => SearchPageMobile()));
-                          },
-                          elevation: 2,
-                          color: Colors.white,
-                          visualDensity:
-                              VisualDensity(horizontal: 1.0, vertical: 1.0),
-                          shape: CircleBorder(),
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: Icon(Icons.search),
-                          ),
-                        ),
+                        // MaterialButton(
+                        //   onPressed: () {
+                        //     Navigator.push(
+                        //         context,
+                        //         MaterialPageRoute(
+                        //             builder: (context) => SearchPageMobile()));
+                        //   },
+                        //   elevation: 2,
+                        //   color: Colors.white,
+                        //   visualDensity:
+                        //       VisualDensity(horizontal: 1.0, vertical: 1.0),
+                        //   shape: CircleBorder(),
+                        //   child: Padding(
+                        //     padding: const EdgeInsets.all(5.0),
+                        //     child: Icon(Icons.search),
+                        //   ),
+                        // ),
                         Builder(builder: (context) {
                           return GestureDetector(
                             onTap: () => Scaffold.of(context).openDrawer(),

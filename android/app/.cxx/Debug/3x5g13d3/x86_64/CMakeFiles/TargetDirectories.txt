@@ -1,0 +1,2 @@
+C:/Users/webpi/Desktop/CropioApplication/android/app/.cxx/Debug/3x5g13d3/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/webpi/Desktop/CropioApplication/android/app/.cxx/Debug/3x5g13d3/x86_64/CMakeFiles/rebuild_cache.dir
