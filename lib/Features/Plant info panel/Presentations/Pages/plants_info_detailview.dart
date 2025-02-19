@@ -1,16 +1,18 @@
-
 import 'package:flutter/material.dart';
+import 'package:myapp/Features/Search/Data/model/plant_info.dart';
 
 class PlantsInfoDetailview extends StatelessWidget {
-  final String plantName;
-  final String imageUrl;
-  final String description;
+  final String? plantName;
+  final String? imageUrl;
+  final String? description;
+  final PlantInfo? selectedPlant;
 
   const PlantsInfoDetailview({
     super.key,
-    required this.plantName,
-    required this.imageUrl,
-    required this.description,
+    this.selectedPlant,
+    this.plantName,
+    this.imageUrl,
+    this.description,
   });
 
   @override
@@ -34,7 +36,6 @@ class PlantsInfoDetailview extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         backgroundColor:
                             const Color.fromARGB(255, 255, 250, 250),
-                            
                         padding: const EdgeInsets.all(2),
                         minimumSize: Size(35, 35),
                         shape: RoundedRectangleBorder(
@@ -75,9 +76,11 @@ class PlantsInfoDetailview extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
                   color: Colors.green,
-                  image:  DecorationImage(
+                  image: DecorationImage(
                     // image: AssetImage('assets/philodendron.jpg'),
-                    image: NetworkImage(imageUrl),
+                    image: selectedPlant != null && selectedPlant!.imageUrl[0].isNotEmpty
+                        ? NetworkImage(selectedPlant!.imageUrl[0])
+                        : AssetImage('assets/placeholder.png') as ImageProvider,
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -89,8 +92,8 @@ class PlantsInfoDetailview extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                     Text(
-                      plantName,
+                    Text(
+                      selectedPlant?.plant ?? '',
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -98,8 +101,9 @@ class PlantsInfoDetailview extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      description,
-                      // 'Philodendron is a large genus of flowering plants in the family Araceae. As of September 2015, the World Checklist of Selected Plant Families accepted 489 species; other sources accept',
+                      selectedPlant == null
+                          ? "Philodendron is a large genus of flowering plants in the family Araceae. As of September 2015, the World Checklist of Selected Plant Families accepted 489 species; other sources accept"
+                          : selectedPlant!.description,
                       style: TextStyle(
                         color: Colors.grey[600],
                         height: 1.5,

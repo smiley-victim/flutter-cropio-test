@@ -22,7 +22,8 @@ class PlantInfoListviewPage extends StatelessWidget {
                     builder: (context) => const PlantsInfoDetailview(
                         plantName: 'plant',
                         imageUrl: "https://picsum.photos/200/300",
-                        description: 'plant description'))),
+                        description: 'plant description',
+                      ))),
             child: Container(
               margin: const EdgeInsets.all(2),
               padding: EdgeInsets.all(5),
