@@ -1,0 +1,2 @@
+/home/user/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/m395ivd3/x86/CMakeFiles/edit_cache.dir
+/home/user/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/m395ivd3/x86/CMakeFiles/rebuild_cache.dir
