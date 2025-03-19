@@ -1,0 +1,2 @@
+C:/Users/cropio/Desktop/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/6h5z1a1h/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/cropio/Desktop/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/6h5z1a1h/arm64-v8a/CMakeFiles/rebuild_cache.dir

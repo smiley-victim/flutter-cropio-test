@@ -1,0 +1,2 @@
+C:/Users/cropio/Desktop/project-Ghaasphuss/android/app/.cxx/Debug/1i401e31/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/cropio/Desktop/project-Ghaasphuss/android/app/.cxx/Debug/1i401e31/armeabi-v7a/CMakeFiles/rebuild_cache.dir

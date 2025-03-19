@@ -1,0 +1,2 @@
+C:/Users/ninetales/Desktop/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/6e5w332a/x86/CMakeFiles/edit_cache.dir
+C:/Users/ninetales/Desktop/project-Ghaasphuss/android/app/.cxx/RelWithDebInfo/6e5w332a/x86/CMakeFiles/rebuild_cache.dir

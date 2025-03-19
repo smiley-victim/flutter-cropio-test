@@ -1,0 +1,1076 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:164763747818648149",
+      "lastPropertyId": "2:74007951317749550",
+      "name": "CalculationMethodologyEntity",
+      "properties": [
+        {
+          "id": "1:1950396897837563482",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:74007951317749550",
+          "name": "fertilizerRequirementFormula",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2355378516789816234",
+      "lastPropertyId": "6:4460635415952548209",
+      "name": "CareInstructionsEntity",
+      "properties": [
+        {
+          "id": "1:563135148657546203",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3462061587449986503",
+          "name": "temperature",
+          "type": 9
+        },
+        {
+          "id": "3:136101372750254239",
+          "name": "soilType",
+          "type": 9
+        },
+        {
+          "id": "4:3158522792218029187",
+          "name": "watering",
+          "type": 9
+        },
+        {
+          "id": "5:5803430508762872483",
+          "name": "sunlight",
+          "type": 9
+        },
+        {
+          "id": "6:4460635415952548209",
+          "name": "fertilization",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7915496696002255436",
+      "lastPropertyId": "3:2587268294691520270",
+      "name": "ClimateAdjustmentEntity",
+      "properties": [
+        {
+          "id": "1:798612269456043897",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2805263817327330616",
+          "name": "temperature",
+          "type": 9
+        },
+        {
+          "id": "3:2587268294691520270",
+          "name": "humidity",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:5039589478510504522",
+      "lastPropertyId": "4:459787620993952314",
+      "name": "ClimateChangeAdaptationEntity",
+      "properties": [
+        {
+          "id": "1:5326321973103975733",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6583526808129494150",
+          "name": "floodResistance",
+          "type": 9
+        },
+        {
+          "id": "3:1626700521038151770",
+          "name": "extremeHeatResistance",
+          "type": 9
+        },
+        {
+          "id": "4:459787620993952314",
+          "name": "stormProtection",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:337208322344327987",
+      "lastPropertyId": "3:5911292289981661360",
+      "name": "ClimateSuitabilityEntity",
+      "properties": [
+        {
+          "id": "1:6299047628856301033",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7885463626747568741",
+          "name": "region",
+          "type": 9
+        },
+        {
+          "id": "3:5911292289981661360",
+          "name": "climate",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:4373675074136538547",
+      "lastPropertyId": "3:4065842842005994055",
+      "name": "CompanionPlantEntity",
+      "properties": [
+        {
+          "id": "1:3928510164602633757",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5398322745494782044",
+          "name": "plant",
+          "type": 9
+        },
+        {
+          "id": "3:4065842842005994055",
+          "name": "benefit",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:4175130494204066276",
+      "lastPropertyId": "4:6107980915271782665",
+      "name": "DiseaseEntity",
+      "properties": [
+        {
+          "id": "1:1849468297117581703",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2933204430826573029",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:4165657610357855755",
+          "name": "symptoms",
+          "type": 30
+        },
+        {
+          "id": "4:6107980915271782665",
+          "name": "remedy",
+          "type": 30
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:1687905376745447587",
+      "lastPropertyId": "5:5732996965770011488",
+      "name": "EconomicAnalysisEntity",
+      "properties": [
+        {
+          "id": "1:5960999039709258204",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1989589150405851503",
+          "name": "costOfCultivation",
+          "type": 9
+        },
+        {
+          "id": "3:5143580904587262117",
+          "name": "expectedRevenue",
+          "type": 9
+        },
+        {
+          "id": "4:15615331491163796",
+          "name": "profitMargin",
+          "type": 9
+        },
+        {
+          "id": "5:5732996965770011488",
+          "name": "roi",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:4474817872622427571",
+      "lastPropertyId": "5:3564443025771254553",
+      "name": "FertilizerApplicationEntity",
+      "properties": [
+        {
+          "id": "1:6275885087593751221",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7089997027614181861",
+          "name": "stage",
+          "type": 9
+        },
+        {
+          "id": "3:7774426762842911918",
+          "name": "fertilizerType",
+          "type": 9
+        },
+        {
+          "id": "4:8737284051306818409",
+          "name": "applicationFrequency",
+          "type": 9
+        },
+        {
+          "id": "5:3564443025771254553",
+          "name": "importance",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:1724753839124193",
+      "lastPropertyId": "2:3003379976041697519",
+      "name": "FertilizerCalculationEntity",
+      "properties": [
+        {
+          "id": "1:1993532782049099585",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3003379976041697519",
+          "name": "calculationMethodologyId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:5217773767424316173",
+          "relationTarget": "CalculationMethodologyEntity"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:9101578003747003338",
+          "name": "stages",
+          "targetId": "26:7512676361396480154"
+        }
+      ]
+    },
+    {
+      "id": "11:804250516854587451",
+      "lastPropertyId": "4:5107841643735669351",
+      "name": "FertilizerQuantityEntity",
+      "properties": [
+        {
+          "id": "1:4731898123383329438",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5792827900353354358",
+          "name": "npkId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:7596384184463767394",
+          "relationTarget": "NpkEntity"
+        },
+        {
+          "id": "3:1200390416952901974",
+          "name": "compost",
+          "type": 9
+        },
+        {
+          "id": "4:5107841643735669351",
+          "name": "frequency",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "12:7736488439435272566",
+      "lastPropertyId": "3:8108816680040658658",
+      "name": "GeneticVarietyEntity",
+      "properties": [
+        {
+          "id": "1:896495838671534714",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4991011237966957508",
+          "name": "variety",
+          "type": 9
+        },
+        {
+          "id": "3:8108816680040658658",
+          "name": "characteristics",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "13:7658116442038128418",
+      "lastPropertyId": "10:6389322358515822205",
+      "name": "GrowingConditionsEntity",
+      "properties": [
+        {
+          "id": "1:3193420771559519171",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:641839310457151893",
+          "name": "sunlight",
+          "type": 9
+        },
+        {
+          "id": "3:7851407960908252066",
+          "name": "water",
+          "type": 9
+        },
+        {
+          "id": "4:8625451066498994407",
+          "name": "temperature",
+          "type": 9
+        },
+        {
+          "id": "5:2403429172964830854",
+          "name": "humidity",
+          "type": 9
+        },
+        {
+          "id": "6:1824389792738998782",
+          "name": "soilType",
+          "type": 9
+        },
+        {
+          "id": "7:5930749016645842073",
+          "name": "soilPH",
+          "type": 9
+        },
+        {
+          "id": "8:6704983385510369005",
+          "name": "windResistance",
+          "type": 9
+        },
+        {
+          "id": "9:376020157940195565",
+          "name": "frostTolerance",
+          "type": 9
+        },
+        {
+          "id": "10:6389322358515822205",
+          "name": "droughtTolerance",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:4206485721382984567",
+          "name": "climateSuitability",
+          "targetId": "5:337208322344327987"
+        }
+      ]
+    },
+    {
+      "id": "14:1160964543131673967",
+      "lastPropertyId": "4:3815501960592655396",
+      "name": "GrowthStageEntity",
+      "properties": [
+        {
+          "id": "1:7410948255698701861",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8960620225531785311",
+          "name": "stage",
+          "type": 9
+        },
+        {
+          "id": "3:5727377730945484233",
+          "name": "duration",
+          "type": 9
+        },
+        {
+          "id": "4:3815501960592655396",
+          "name": "careInstructionsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "3:5978968984119983531",
+          "relationTarget": "CareInstructionsEntity"
+        }
+      ],
+      "relations": [
+        {
+          "id": "3:7296041596970981748",
+          "name": "tasks",
+          "targetId": "28:5115273988655933497"
+        }
+      ]
+    },
+    {
+      "id": "15:539511415517808772",
+      "lastPropertyId": "8:8558324102646631024",
+      "name": "HarvestInfoEntity",
+      "properties": [
+        {
+          "id": "1:8505711995162445022",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4593634528309891868",
+          "name": "season",
+          "type": 9
+        },
+        {
+          "id": "3:8159328235021341382",
+          "name": "bestHarvestTime",
+          "type": 9
+        },
+        {
+          "id": "4:1093000703712099892",
+          "name": "method",
+          "type": 9
+        },
+        {
+          "id": "5:1157904291141804848",
+          "name": "yieldPerTree",
+          "type": 9
+        },
+        {
+          "id": "6:1361672203852369782",
+          "name": "yieldPerAcre",
+          "type": 9
+        },
+        {
+          "id": "7:3357119591620829467",
+          "name": "economicAnalysisId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "4:4483138885772438772",
+          "relationTarget": "EconomicAnalysisEntity"
+        },
+        {
+          "id": "8:8558324102646631024",
+          "name": "storageId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "5:1068013704674633371",
+          "relationTarget": "StorageEntity"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "16:7483033906111340915",
+      "lastPropertyId": "4:7774145251424202684",
+      "name": "MacronutrientsEntity",
+      "properties": [
+        {
+          "id": "1:304723621451058780",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:980743317796596558",
+          "name": "nitrogen",
+          "type": 9
+        },
+        {
+          "id": "3:3203974443234248156",
+          "name": "phosphorus",
+          "type": 9
+        },
+        {
+          "id": "4:7774145251424202684",
+          "name": "potassium",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "17:4564776936466123952",
+      "lastPropertyId": "5:1969336100865801508",
+      "name": "MicronutrientsEntity",
+      "properties": [
+        {
+          "id": "1:3185767355758025499",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5630623739673188468",
+          "name": "calcium",
+          "type": 9
+        },
+        {
+          "id": "3:1816813022973931467",
+          "name": "magnesium",
+          "type": 9
+        },
+        {
+          "id": "4:6199778702649853420",
+          "name": "zinc",
+          "type": 9
+        },
+        {
+          "id": "5:1969336100865801508",
+          "name": "iron",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "18:3663825658095530806",
+      "lastPropertyId": "4:4442612125308462160",
+      "name": "NpkEntity",
+      "properties": [
+        {
+          "id": "1:455404625442517696",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:205521108532964660",
+          "name": "nitrogen",
+          "type": 9
+        },
+        {
+          "id": "3:649844304707142973",
+          "name": "phosphorus",
+          "type": 9
+        },
+        {
+          "id": "4:4442612125308462160",
+          "name": "potassium",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "19:5943422044051146810",
+      "lastPropertyId": "3:7531392897872804096",
+      "name": "NutrientRequirementsEntity",
+      "properties": [
+        {
+          "id": "1:5795254606764617004",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2991688119350684578",
+          "name": "macronutrientsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "6:1866321542388185583",
+          "relationTarget": "MacronutrientsEntity"
+        },
+        {
+          "id": "3:7531392897872804096",
+          "name": "micronutrientsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "7:1376812220248422334",
+          "relationTarget": "MicronutrientsEntity"
+        }
+      ],
+      "relations": [
+        {
+          "id": "4:4611731134362393630",
+          "name": "fertilizerApplication",
+          "targetId": "9:4474817872622427571"
+        }
+      ]
+    },
+    {
+      "id": "20:2721980440317632817",
+      "lastPropertyId": "5:1527605042984183232",
+      "name": "PestEntity",
+      "properties": [
+        {
+          "id": "1:8730189913208105479",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:132623392798448259",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:4508021406140409982",
+          "name": "symptoms",
+          "type": 30
+        },
+        {
+          "id": "4:8138425315992793411",
+          "name": "controlMethods",
+          "type": 30
+        },
+        {
+          "id": "5:1527605042984183232",
+          "name": "biologicalControl",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "21:6273006623455034251",
+      "lastPropertyId": "16:7239274929442003908",
+      "name": "PlantDataEntity",
+      "properties": [
+        {
+          "id": "1:3475280301861318944",
+          "name": "objectBoxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4472719933754842896",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:3125020855766659359",
+          "name": "plant",
+          "type": 9
+        },
+        {
+          "id": "4:8735326731201811913",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "5:6033235711500842936",
+          "name": "plantClass",
+          "type": 9
+        },
+        {
+          "id": "6:3416934714395997592",
+          "name": "scientificName",
+          "type": 9
+        },
+        {
+          "id": "7:1623943876638742019",
+          "name": "imageUrl",
+          "type": 30
+        },
+        {
+          "id": "8:6110124001108112900",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "9:133457898558291926",
+          "name": "growingConditionsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "8:1560278260543403670",
+          "relationTarget": "GrowingConditionsEntity"
+        },
+        {
+          "id": "10:1664045421732805326",
+          "name": "nutrientRequirementsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "9:5276753415038359051",
+          "relationTarget": "NutrientRequirementsEntity"
+        },
+        {
+          "id": "11:2883802271355303763",
+          "name": "pollinationId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "10:4499919191273214828",
+          "relationTarget": "PollinationEntity"
+        },
+        {
+          "id": "12:7461736507682221825",
+          "name": "harvestInfoId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "11:5360622539291639888",
+          "relationTarget": "HarvestInfoEntity"
+        },
+        {
+          "id": "13:7381301066323383866",
+          "name": "propagationMethodsId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "12:8049558078779105698",
+          "relationTarget": "PropagationMethodsEntity"
+        },
+        {
+          "id": "14:6880817360516577528",
+          "name": "climateChangeAdaptationId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "13:3197597993197859200",
+          "relationTarget": "ClimateChangeAdaptationEntity"
+        },
+        {
+          "id": "15:6230552407583533336",
+          "name": "traditionalUsesId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "14:5765816507881484215",
+          "relationTarget": "TraditionalUsesEntity"
+        },
+        {
+          "id": "16:7239274929442003908",
+          "name": "fertilizerCalculationId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "15:1299784017956164268",
+          "relationTarget": "FertilizerCalculationEntity"
+        }
+      ],
+      "relations": [
+        {
+          "id": "5:4168573333396993633",
+          "name": "pests",
+          "targetId": "20:2721980440317632817"
+        },
+        {
+          "id": "6:7691103654750574057",
+          "name": "disease",
+          "targetId": "7:4175130494204066276"
+        },
+        {
+          "id": "7:6762257610284432275",
+          "name": "companionPlants",
+          "targetId": "6:4373675074136538547"
+        },
+        {
+          "id": "8:50637553766096737",
+          "name": "geneticVarieties",
+          "targetId": "12:7736488439435272566"
+        },
+        {
+          "id": "9:3620566281248024872",
+          "name": "growthStages",
+          "targetId": "14:1160964543131673967"
+        }
+      ]
+    },
+    {
+      "id": "22:3869839720631798174",
+      "lastPropertyId": "5:5387908477732008984",
+      "name": "PollinationEntity",
+      "properties": [
+        {
+          "id": "1:3607051220050571843",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1824549083898891684",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "3:457398850021728730",
+          "name": "pollinators",
+          "type": 30
+        },
+        {
+          "id": "4:864188175318705097",
+          "name": "floweringSeason",
+          "type": 9
+        },
+        {
+          "id": "5:5387908477732008984",
+          "name": "importance",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "23:5471360184801473722",
+      "lastPropertyId": "5:3425321409620346824",
+      "name": "PropagationMethodsEntity",
+      "properties": [
+        {
+          "id": "1:6922395493017275248",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7770367628125479457",
+          "name": "seeds",
+          "type": 9
+        },
+        {
+          "id": "3:2542952408223633081",
+          "name": "grafting",
+          "type": 9
+        },
+        {
+          "id": "4:5666614321892572076",
+          "name": "airLayering",
+          "type": 9
+        },
+        {
+          "id": "5:3425321409620346824",
+          "name": "tissueCulture",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "24:967456297818223568",
+      "lastPropertyId": "4:7757466528183320651",
+      "name": "ReminderConfigEntity",
+      "properties": [
+        {
+          "id": "1:7987538516713155548",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1557243877431303809",
+          "name": "timeFrame",
+          "type": 9
+        },
+        {
+          "id": "3:4256362290999816729",
+          "name": "repeatInterval",
+          "type": 9
+        },
+        {
+          "id": "4:7757466528183320651",
+          "name": "alertDuration",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "25:8619000828764670574",
+      "lastPropertyId": "3:7685527943276927668",
+      "name": "SoilAdjustmentEntity",
+      "properties": [
+        {
+          "id": "1:6399784771125299824",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8334672435379133455",
+          "name": "soilType",
+          "type": 9
+        },
+        {
+          "id": "3:7685527943276927668",
+          "name": "climateAdjustmentId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "16:4567906275262741507",
+          "relationTarget": "ClimateAdjustmentEntity"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "26:7512676361396480154",
+      "lastPropertyId": "6:8645820949598727981",
+      "name": "StageFertilizerEntity",
+      "properties": [
+        {
+          "id": "1:2376553791975394254",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:590835251160563808",
+          "name": "stage",
+          "type": 9
+        },
+        {
+          "id": "3:877999648578513160",
+          "name": "fertilizerType",
+          "type": 9
+        },
+        {
+          "id": "4:8123235480409025505",
+          "name": "fertilizerQuantityId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "17:992988590773956166",
+          "relationTarget": "FertilizerQuantityEntity"
+        },
+        {
+          "id": "5:6506190724524524893",
+          "name": "soilAdjustmentId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "18:4775950731881106980",
+          "relationTarget": "SoilAdjustmentEntity"
+        },
+        {
+          "id": "6:8645820949598727981",
+          "name": "importance",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "27:5637286946147533021",
+      "lastPropertyId": "4:1679593535529599150",
+      "name": "StorageEntity",
+      "properties": [
+        {
+          "id": "1:4240105215702280041",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7315882796595165569",
+          "name": "shelfLife",
+          "type": 9
+        },
+        {
+          "id": "3:6590157911333711357",
+          "name": "bestStorageConditions",
+          "type": 9
+        },
+        {
+          "id": "4:1679593535529599150",
+          "name": "storageInnovations",
+          "type": 30
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "28:5115273988655933497",
+      "lastPropertyId": "4:8439789374980566093",
+      "name": "TaskEntity",
+      "properties": [
+        {
+          "id": "1:3851894991473298604",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1671666539803582077",
+          "name": "taskName",
+          "type": 9
+        },
+        {
+          "id": "3:1421677729938256564",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:8439789374980566093",
+          "name": "reminderConfigId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "19:3999345461488133030",
+          "relationTarget": "ReminderConfigEntity"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "29:3798650747709194854",
+      "lastPropertyId": "4:4583901430322994837",
+      "name": "TraditionalUsesEntity",
+      "properties": [
+        {
+          "id": "1:6551866535110597851",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3947270570371325726",
+          "name": "ayurveda",
+          "type": 9
+        },
+        {
+          "id": "3:5086336411807822721",
+          "name": "folkMedicine",
+          "type": 9
+        },
+        {
+          "id": "4:4583901430322994837",
+          "name": "culinaryUses",
+          "type": 30
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "29:3798650747709194854",
+  "lastIndexId": "19:3999345461488133030",
+  "lastRelationId": "9:3620566281248024872",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

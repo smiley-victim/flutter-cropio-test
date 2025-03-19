@@ -1,0 +1,2 @@
+C:/Users/ninetales/Desktop/project-Ghaasphuss/android/app/.cxx/Debug/4s6m2j10/x86/CMakeFiles/edit_cache.dir
+C:/Users/ninetales/Desktop/project-Ghaasphuss/android/app/.cxx/Debug/4s6m2j10/x86/CMakeFiles/rebuild_cache.dir
